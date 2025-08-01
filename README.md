@@ -5,7 +5,7 @@ A Next.js application to search and explore blockchain networks using data from 
 ## Features
 
 - 🔍 Search blockchain networks by name, chain ID, or symbol
-- 📱 Responsive design with Tailwind CSS
+- 📱 Responsive design with Tailwind CSSW
 - 🌙 Dark mode support
 - 🚀 Deployed on GitHub Pages
 - 📊 Real-time data from chainlist.org API

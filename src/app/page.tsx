@@ -93,7 +93,7 @@ export default function Home() {
         {!loading && filteredChains.length === 0 && searchQuery && (
           <div className="text-center py-16">
             <p className="text-xl text-gray-500 dark:text-gray-400">
-              No chains found matching "{searchQuery}"
+              No chains found matching {searchQuery}
             </p>
           </div>
         )}

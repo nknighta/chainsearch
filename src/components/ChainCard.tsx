@@ -1,4 +1,5 @@
 import { ChainData } from '@/types/chain'
+import Image from 'next/image'
 
 interface ChainCardProps {
   chain: ChainData
@@ -9,8 +10,10 @@ export default function ChainCard({ chain }: ChainCardProps) {
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 p-6">
       <div className="flex items-center mb-4">
         {chain.icon && (
-          <img
+          <Image
             src={chain.icon}
+            width={32}
+            height={32}
             alt={`${chain.name} icon`}
             className="w-8 h-8 mr-3 rounded-full"
             onError={(e) => {
